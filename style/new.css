@@ -8,7 +8,8 @@
 .banner {
   background-image: url("../resources/Banner\ Image.png");
   
-  background-blend-mode: gray;
+  background-color: gray;
+ background-blend-mode: multiply;
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
@@ -61,6 +62,8 @@
 }
 .welcome-sec {
   background-image: url("../resources/Vectorrr.png");
+  background-color: gray;
+ background-blend-mode: multiply;
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
@@ -91,6 +94,44 @@
   border-radius: 3px;
   color: white;
   background-color: #070211;
+}
+
+
+/* address */
+
+.add-sec{
+  padding: 0px 240px;
+  margin: 220px 140px ;
+  background: linear-gradient(180deg, #FF00001A 0%, #FF000000 100%);
+
+}
+.address{
+  text-align: center;
+  padding: 100px 370px;
+}
+
+.span{
+  color: #F00;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+line-height: 56px;
+}
+.h{
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+line-height: 56px;
+}
+.button{
+  display: inline-flex;
+padding: 16px 32px;
+color: white;
+border-radius: 8px;
+background: #F00;
+border: none;
+
+
 }
 
 /* portfolio */
@@ -214,6 +255,7 @@ padding:8px;
   text-decoration: none;
   padding: 25px 30px;
   border-radius: 0px 50px 50px 0px;
+  /* padding-left: -5px; */
 }
 /* footer */
 
