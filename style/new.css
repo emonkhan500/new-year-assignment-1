@@ -6,7 +6,7 @@
 }
 
 .banner {
-  background-image: url("/resources/Banner\ Image.png");
+  background-image: url("./resources/Banner\ Image.png");
   
   background-blend-mode: gray;
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@
   padding: 0px 140px;
 }
 .welcome-sec {
-  background-image: url("/resources/Vectorrr.png");
+  background-image: url("./resources/Vectorrr.png");
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
